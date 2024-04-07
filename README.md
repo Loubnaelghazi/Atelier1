@@ -16,11 +16,11 @@ The main purpose of this project is to gain familiarity with web scraping techni
 ## Overview of Work <a name="overview-of-work"></a>
 
 1. **Web Scraping :**
-   - Utilized Scrapy and Beautiful Soup libraries to scrape data from Arabic web sources related to a specific domain.
+   - Utilized Scrapy and Beautiful Soup libraries to scrape data from ALJAZERA web site (news).
    - Extracted article titles, links, and summaries for further analysis.
 
 2. **Storing Data :**
-   - Stored the raw scraped data in a NoSQL database (MongoDB) for future retrieval and analysis.
+   - Stored the raw scraped data in a NoSQL database (MongoDB) for future analysis.
 
 3. **NLP Pipeline :**
    - Implemented a pipeline for text preprocessing, including cleaning, tokenization, stop words removal, and normalization.
