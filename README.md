@@ -1,46 +1,36 @@
-Web Scraping and NLP Pipeline
-Table of Contents
+# Web Scraping and NLP Pipeline
 
-    Objective
-    Overview of Work
-    Usage
-    Requirements
-    Contributors
-    Conclusion
+## Table of Contents
 
-Objective <a name="objective"></a>
+1. [Objective](#objective)
+2. [Overview of Work](#overview-of-work)
+3. [Usage](#usage)
+4. [Requirements](#requirements)
+5. [Contributors](#contributors)
+6. [Conclusion](#conclusion)
+
+## Objective <a name="objective"></a>
 
 The main purpose of this project is to gain familiarity with web scraping techniques using libraries like Scrapy and Beautiful Soup, and to implement a Natural Language Processing (NLP) pipeline for text data obtained from Arabic web sources.
-Overview of Work <a name="overview-of-work"></a>
 
-    Web Scraping :
-        Utilized Scrapy and Beautiful Soup libraries to scrape data from Arabic web sources related to a specific domain.
-        Extracted article titles, links, and summaries for further analysis.
+## Overview of Work <a name="overview-of-work"></a>
 
-    Storing Data :
-        Stored the raw scraped data in a NoSQL database (MongoDB) for future retrieval and analysis.
+1. **Web Scraping :**
+   - Utilized Scrapy and Beautiful Soup libraries to scrape data from Arabic web sources related to a specific domain.
+   - Extracted article titles, links, and summaries for further analysis.
 
-    NLP Pipeline :
-        Implemented a pipeline for text preprocessing, including cleaning, tokenization, stop words removal, and normalization.
-        Applied stemming and lemmatization techniques to reduce words to their root forms and compared their effectiveness.
-        Used both rule-based and machine learning-based parts of speech tagging techniques.
-        Applied Named Entity Recognition (NER) methods to identify and classify named entities in the text data.
-    Requirements <a name="requirements"></a>
+2. **Storing Data :**
+   - Stored the raw scraped data in a NoSQL database (MongoDB) for future retrieval and analysis.
 
-    Python 3.x
-    Scrapy
-    Beautiful Soup
-    NLTK
-    spaCy
-    MongoDB
+3. **NLP Pipeline :**
+   - Implemented a pipeline for text preprocessing, including cleaning, tokenization, stop words removal, and normalization.
+   - Applied stemming and lemmatization techniques to reduce words to their root forms and compared their effectiveness.
+   - Used both rule-based and machine learning-based parts of speech tagging techniques.
+   - Applied Named Entity Recognition (NER) methods to identify and classify named entities in the text data.
 
-Contributors <a name="contributors"></a>
+## Usage <a name="usage"></a>
 
-    Your Name
-    Contributor 1
-    Contributor 2
+1. **Clone the repository :**
+   ```bash
+   git clone https://github.com/your_username/your_repository.git
 
-Conclusion <a name="conclusion"></a>
-
-Through this project, I have learned valuable skills in web scraping and natural language processing. I gained hands-on experience with data collection, text preprocessing, linguistic analysis, and database management. This project has provided me with a deeper understanding of how to extract, preprocess, and analyze textual data from Arabic web sources, which will be beneficial for future projects and research endeavors.    
-        
