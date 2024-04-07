@@ -5,9 +5,7 @@
 1. [Objective](#objective)
 2. [Overview of Work](#overview-of-work)
 3. [Usage](#usage)
-4. [Requirements](#requirements)
-5. [Contributors](#contributors)
-6. [Conclusion](#conclusion)
+4. [Conclusion](#conclusion)
 
 ## Objective <a name="objective"></a>
 
